@@ -1,6 +1,15 @@
-vendor/
-node_modules/
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
 npm-debug.log
+yarn-error.log
+
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -12,9 +21,22 @@ public/hot
 storage/*.key
 .env.*.php
 .env.php
-.env
 Homestead.yaml
 Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+
+# Custom
+public_html
+.profile
+.styleci.yml
+.tmux/
+.viminfo
+.bash_history
+.bash_logout
+.bashrc
+.editorconfig
+.composer/
+.mysql_history
+.c9/
